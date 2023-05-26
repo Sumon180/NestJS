@@ -18,7 +18,7 @@ async function bootstrap() {
   const app = await NestFactory.create(RootModule);
   app.use(globalMiddleweareOne);
   app.use(globalMiddleweareTwo);
-  await app.listen(4000);
+  await app.listen(3000);
 }
 
 bootstrap();
